@@ -3,7 +3,12 @@
 
 A Node.js application built using Express.js and MongoDB with Mongoose.
 
+## Live Demo
+
+🚀 **Live Application:** https://mongoose-express-app-yeh9.onrender.com/
+
 ## Technologies Used
+
 - Node.js
 - Express.js
 - MongoDB
@@ -11,6 +16,7 @@ A Node.js application built using Express.js and MongoDB with Mongoose.
 - dotenv
 
 ## Project Structure
+
 ```text
 express-mongoose-app/
 ├── node_modules/
@@ -31,7 +37,7 @@ Clone the repository:
 git clone https://github.com/YOUR_USERNAME/express-mongoose-app.git
 ```
 
-Navigate to the project folder:
+Navigate to the project directory:
 
 ```bash
 cd express-mongoose-app
@@ -45,11 +51,11 @@ npm install
 
 ## Environment Variables
 
-Create a `.env` file and configure:
+Create a `.env` file:
 
 ```env
-PORT=3000
 MONGO_URI=your_mongodb_connection_string
+PORT=3000
 ```
 
 ## Run the Application
@@ -58,5 +64,16 @@ MONGO_URI=your_mongodb_connection_string
 node server.js
 ```
 
+The application runs locally at:
+
+http://localhost:3000
+
+## Deployment
+
+The application is deployed using Render.
+
+**Live URL:** https://mongoose-express-app-yeh9.onrender.com/
+
 ## Author
+
 Santhoshini
